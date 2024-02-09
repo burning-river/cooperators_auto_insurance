@@ -40,3 +40,9 @@ Auto insurance policies bundled with other products was the most important featu
 <img src="figures/multi_product_observed.png" width="300" height="300"/>
 <img src="figures/multi_product_expected.png" width="300" height="300"/>
 </p>
+
+Longitude (going from east to west) was also a statistically significant feature distinguishing between buyers and non-buyers. Non-buyers were more spread out in Canada whereas buyers were concentrated within a narrow band of longitudes, typically within the province of Ontario (along the length of Lake Ontario).
+
+<p float="left">
+<img src="figures/longitude_boxplot.png" width="500" height="375"/>
+</p>
