@@ -46,3 +46,17 @@ Longitude (going from east to west) was also a statistically significant feature
 <p float="left">
 <img src="figures/longitude_boxplot.png" width="500" height="375"/>
 </p>
+
+### PREDICTING CUSTOMERS WHO BOUGHT INSURANCE
+
+We trained a model to predict buyers of auto insurance based on their features. We then tested the model on a test dataset of 10,183 (10% of the dataset) customers. The model modestly predicts (ROC AUC = 0.67) if a customer purchased insurance based on the features provided.
+
+<p float="left">
+<img src="figures/confusion_matrix.png" width="450" height="450"/>
+</p>
+
+We also looked at features that played the most important role in predicting buyers of insurance. Once again, bundling auto insurance with other products and longitude were the two most important features followed by number of years licenced and age.
+
+<p float="left">
+<img src="figures/feature_importances.png" width="650" height="400"/>
+</p>
