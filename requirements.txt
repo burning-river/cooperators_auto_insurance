@@ -1,0 +1,10 @@
+pandas 
+scikit-learn 
+matplotlib 
+seaborn 
+pgeocode 
+plotly
+package_outlier 
+xgboost 
+imblearn 
+openpyxl
